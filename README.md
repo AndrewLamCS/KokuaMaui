@@ -1,7 +1,5 @@
 # KokuaMaui
 
-# Kokua Maui
-
 Welcome to Kokua Maui! This repository is dedicated to supporting the recovery efforts for Maui following the devastating wildfires of August 2023. Here, you'll find information on how you can contribute, stay informed, and make a difference for the people and environment of Maui.
 
 ## Table of Contents
