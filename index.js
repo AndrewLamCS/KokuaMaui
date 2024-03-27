@@ -1,11 +1,10 @@
 let themeButton = document.getElementById("theme-button");
+let form = document.getElementById("sign-petition");
 let count = 3;
 
 const toggleDarkMode = () => {
   document.body.classList.toggle("dark-mode");
 }
-
-let signNowButton = document.getElementById("sign-now-button");
 
 const addSignature = (event) => {
   let name = document.getElementById("name").value;
@@ -24,5 +23,5 @@ const addSignature = (event) => {
   event.preventDefault();
 }
 
-signNowButton.addEventListener("submit", addSignature);
 themeButton.addEventListener("click", toggleDarkMode);
+form.addEventListener("submit", addSignature);
