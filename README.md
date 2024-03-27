@@ -47,7 +47,6 @@ Witness the devastating impact of the wildfires through the before-and-after ima
 
 Join us in advocating for the protection of Hawaii from predatory real-estate practices. Sign our petition to prompt local and state action in developing legislation to prevent Maui County residents from losing their homes during the economic recovery.
 
-[Sign the Petition](#petition)
 
 ## Recent News
 
