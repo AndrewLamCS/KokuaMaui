@@ -1,0 +1,210 @@
+/* Part 1: Navbar */
+
+.navbar {
+  background-color: #826251;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+  height: 50px;
+}
+
+/* General style rule set for all items in ul */
+.navbar ul {
+  list-style: none;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style rule set for individual li */
+.navbar ul li {
+  float: left;
+  margin: 10px;
+}
+
+
+/* Style rule set for individual li link */
+.navbar ul li a {
+  display: block;
+  text-decoration: none;
+  font-family: Arial;
+  color: #68C3D4;
+  font-size: 20px;
+  padding: 0;
+  text-align: center;
+}
+
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+  font-weight: bold;
+  background-color: #A57D67;
+}
+
+/* Part 2: Flexbox */
+
+/* General style rule set for flex container */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 5px;
+}
+
+
+/* Style rules for flex-item 1 */
+.header-item:nth-of-type(1) {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+#header-img {
+  height: 50%;
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Style rules for flex-item 2 */
+.header-item:nth-of-type(2) {
+  width: 50%;
+}
+
+/* Style set for all flex-items */
+.header-item {
+  text-align: center;
+  font-weight: bold;
+  color: #68C3D4;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header-button {
+  background-color: #568EA3;
+  color: #68C3D4;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  border: 5px solid;
+  cursor: pointer;
+}
+
+/* Add style to button */
+#theme-button {
+  font-family: Arial;
+  color: #68C3D4;
+  font-size: 20px;
+}
+
+
+/* Customize Dark Mode Theme */
+.dark-mode {
+  background-color: #0d0d0d;
+  color: white;
+}
+
+
+body {
+  background-color: beige;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+p {
+  font-family: Arial;
+  font-size: 18px;
+}
+
+h4 {
+  font-family: Arial;
+}
+
+.youtube {
+  display: flex;
+  justify-content: center;
+}
+
+#banyan {
+  display: flex;
+  justify-content: center;
+}
+
+.important {
+  font-family: sans-serif;
+}
+
+#interesting {
+  font-family: Arial;
+}
+
+a:link {
+  color: blue;
+}
+
+/* a:visited {
+  color: red;
+} */
+
+/* a:hover {
+  color: green;
+} */
+
+a:active {
+  color: orange;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #826251;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.footer a {
+  color: #68C3D4;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  font-weight: bold;
+  background-color: #A57D67;
+}
+
+.petition-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100;
+  padding-bottom: 50px;
+}
+
+.petition-para {
+  width: 55%;
+  padding-right: 10px;
+}
+
+.signatures {
+  width: 45%;
+  padding-right: 10px;
+}
+
+.maui-news {
+  display: block;
+  margin-bottom: 50px;
+}

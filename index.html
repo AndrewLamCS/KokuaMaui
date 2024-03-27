@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Kokua Maui</title>
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="Assets/Hawaii_icon.png">
+</head>
+
+<body>
+
+  <!-- Part 1: Navbar Starter Code -->
+  <div class="navbar">
+    <ul>
+      <li><a href="https://www.hawaiicommunityfoundation.org/strengthening/maui-strong-fund">Maui Strong</a></li>
+      <li><a href="https://mauifoodbank.org/">Maui Food Bank</a></li>
+      <li><a href=#interesting>About</a></li>
+      <li><a href=#video>Watch</a></li>
+      <li><button id="theme-button">Toggle Dark Mode</button></li>
+      <!-- Stretch Challenge: Drop Down -->
+    </ul>
+  </div>
+
+
+  <!-- Part 2: Flexbox Layout Starter Code -->
+  <div class="container">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+
+
+  <div class="header-container">
+    <div class="header-item">
+      <h1>Kokua Maui</h1>
+    </div>
+    <img class="header-img" src="Assets/kaanapali.png" alt="Maui Image">
+
+    <div class="header-item">
+      <h3>Maui needs your help!</h3>
+    </div>
+
+    <div class="header-button">
+      <button type="button">How you can help</button>
+      <button type="button">Submit a story</button>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <div id="video" class="youtube">
+    <iframe width="1000" height="600" src="https://www.youtube.com/embed/Stt5872sMqA?si=S3PHXZGFlAG8h3NV"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </div>
+  <!--- About --->
+  <h2>The August 2023 Wildfires</h2>
+  <p id="interesting">In early August 2023, a series of wildfires broke out in the Hawaiian Islands.
+    Of all the islands, Maui was the most impacted and continues to be deeply affected in the aftermath.
+    Many families have been left without shelter and essential resources.
+  </p>
+
+
+  <!--- Data --->
+  <h3>Data:</h3>
+  <h4><a
+      href="https://dbedt.hawaii.gov/blog/23-47/#:~:text=The%20Maui%20wildfire%20took%20the,establishments%20with%20about%207%2C000%20employees.">Hawaii's
+      Department of Business, Economic Development & Tourism reports:</a></h4>
+
+  <ul>
+    <li>100+ lives lost</li>
+    <li>2000+ homes destroyed</li>
+    <li>800+ businesses destroyed</li>
+    <li>7000+ people left unemployed</li>
+  </ul>
+  <br><br>
+  <!--- Impact --->
+  <h3>Impact:</h3>
+  <h3>Maui's historic banyan tree before and after the fire</h3>
+  <img id="banyan" src="Assets/MauiBeforeAndAfter.png" alt="Maui before/after fire" width="400" height="300" />
+  <p class="important">The wildfires wiped away centuries of Lahaina's history and the island's natural beauty</p>
+  <br><br>
+
+  
+  <h3>Heat map of the fires in Lahaina, Maui</h3>
+  <a href="https://www.cnn.com/interactive/2023/08/hawaii-wildfires-timeline-maui-lahaina-dg/index.html"
+    alt="Timeline of Maui Wildfires">Timeline of Maui Wildfires</a>
+  <br>
+  <img src="Assets/LahainaFire.png" alt="Image of Lahaina fire" width="400" height="600" />
+  <p class="important">The deadly wildfires consumed Maui day by day, leaving the island in a state of disrepair</p>
+
+
+  <!-- Petition -->
+  <div class="petition" id="petition">
+
+    <h2>Sign Our Petition 📢</h2>
+    <div class="petition-container">
+      <div class="petition-para">
+        <p>Sign this petition to protect Hawaii from predatory real-estate practices. We are seeking signatures to
+          help prompt local and state action to develop legislation to prevent the people of Maui County from losing
+          their homes during this economic recovery. Without a moratorium on residential and commercial foreclosures,
+          the people of Maui County are at risk of being displaced off island without this protection in place.</p>
+      </div>
+
+      <div class="signatures">
+        <p>🖊️ Carson from Chicago supports this.</p>
+        <p>🖊️ Amy from Queens supports this.</p>
+        <p>🖊️ Teresa from Harlem supports this.</p>
+        <p id="counter">🖊️ 3 people have signed this petition and support this cause.</p>
+      </div>
+    </div>
+    <br><br>
+    
+    <!--- Sign Petition Form --->
+    <form id="sign-petition" title="sign-petition">
+      <label for="name">Name:</label>
+      <input id="name" type="text" required>
+
+      <label for="hometown">Hometown:</label>
+      <input id="hometown" type="text" required>
+
+      <label for="email">Email:</label>
+      <input id="email" type="text" required>
+
+      <input type="submit" value="Sign Now" id="sign-now-button">
+    </form>
+
+  </div>
+  <br><br>
+
+  <!--- News --->
+  <!--this will help with a stretch goal, if you do not want to incorporate this, then leave it alone :)-->
+  <h2>Recent News</h2>
+
+  <a class="maui-news" href="https://www.mauinews.com/">
+    <article>
+      <h3>Latest News about Maui, Hawaii</h3>
+      <p>Stay updated with the latest news and developments in Maui, Hawaii.</p>
+    </article>
+  </a>
+  <script src="index.js"></script>
+</body>
+
+
+<div class="footer">
+  <a href="https://www.mauinuistrong.info/resource-categories/donate-money" title="Donate Money">Donate</a>
+  <a href="https://www.nytimes.com/article/maui-wildfire-victims.html" title="Learn">Learn More</a>
+</div>
+
+</html>
